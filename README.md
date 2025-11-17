@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ARAKNERD LIB
 
 This is a framework that can help you better organise your php project.
@@ -17,3 +18,6 @@ Installation Guide
 For any enquiries, email me at andrizar2@gmail.com
 
 
+=======
+# Truck_project
+>>>>>>> be96d182003c6bb87abc5edf27afae5fd0d35a5c
