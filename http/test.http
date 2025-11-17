@@ -1,0 +1,10 @@
+### set gsm contact
+
+POST {{baseUrl}}/login
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "username" : "Sam",
+    "password" : "12345"
+}

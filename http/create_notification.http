@@ -1,0 +1,12 @@
+### set gsm contact
+
+POST {{baseUrl}}/create_notification
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "user_id" : "5",
+    "title" : "completed the trip",
+    "message" : "Thanks very much for supporting",
+    "type" : "completed"
+}

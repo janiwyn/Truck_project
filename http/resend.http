@@ -1,0 +1,10 @@
+### set gsm contact
+
+POST {{baseUrl}}/verify_otp
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "username" : "John",
+    "otp" : "719124"
+}

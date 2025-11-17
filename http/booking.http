@@ -1,0 +1,13 @@
+### set gsm contact
+
+POST {{baseUrl}}/create_booking
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "user_id" : "5",
+    "driver_id" : "3",
+    "pickup_text" : "Kampala",
+    "dropoff_text" : "kitala",
+    "truck_type" : "Isuzu"   
+}

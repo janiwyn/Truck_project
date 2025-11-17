@@ -1,0 +1,19 @@
+### set gsm contact
+
+POST {{baseUrl}}/create_truck
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "driver_id" : "3",
+    "truck_name" : "Isuzu",
+    "truck_number_plate" : "UA345F",
+    "capacity_tons": "60",
+    "permit_number": "234",
+    "license_image": "apg1",
+    "permit_image": "apjg3",
+    "status": "available"
+    
+
+    
+}

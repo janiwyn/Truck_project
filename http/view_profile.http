@@ -1,0 +1,14 @@
+### set gsm contact
+
+POST {{baseUrl}}/update_profile
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "user_id" : "1",
+    "first_name" : "John",
+    "last_name" : "Sun",
+    "username": "John",
+    "email" : "john@gmail.com",
+    "phone" : "07845678"
+}

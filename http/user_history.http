@@ -1,0 +1,9 @@
+### set gsm contact
+
+POST {{baseUrl}}/user_history
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "user_id" : "5"  
+}

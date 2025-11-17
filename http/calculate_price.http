@@ -1,0 +1,10 @@
+### set gsm contact
+
+POST {{baseUrl}}/calculate_price
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "truck_type" : "isuzu",
+    "distance_km" : "21"
+}

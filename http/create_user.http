@@ -1,0 +1,15 @@
+### set gsm contact
+
+POST {{baseUrl}}/create_user
+Content-Type: application/json
+//Authorization: Bearer {{token}}
+
+{
+    "first_name" : "Jones",
+    "last_name" : "Soa",
+    "username": "Jones",
+    "email": "john@gmail.com",
+    "phone": "07564368",
+    "password": "123456",
+    "role_id": "1"
+}
